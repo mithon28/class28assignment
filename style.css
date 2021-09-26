@@ -1,0 +1,143 @@
+*{
+    font-family: ;
+}
+.logo img{
+    width: 80px;
+}
+.border{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.btnnew{
+    background: #8490FF;
+    border-color: transparent;
+    border: none;
+}
+.profile-sections{
+    background-color: #8490FF;
+}
+.tem_items{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.img_position{
+    position: absolute;
+    top: -60px;
+    left: 15px;
+}
+.tem_items img{
+    width: 90px;
+}
+
+.contactadd{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.contactadd p{
+    font-weight: 600;
+}
+
+
+/* Response CSS */
+@media (max-width: 775px) {
+    .slider{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .about_me_sec .about_img{
+        padding-top: 50px;
+    }
+    .about_me_sec h5{
+        font-size: 16px;
+    }
+    .about_me_sec h1{
+        font-size: 22px;
+    }
+    .about_me_sec p{
+        font-size: 14px;
+    }
+    .border{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .service_items h5{
+        font-size: 14px;
+        padding: 0 5px;
+      
+    }
+    .service_items p{
+        font-size: 15px;
+    }
+    .services button span{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .profile-sections .col-md-3{
+        width: 45%;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 570px){
+    .about_me_sec h5{
+        margin-top: 20px;
+    }
+    .service_section h1{
+        font-size: 24px;
+    }
+    .service_section p{
+        font-size: 15px;
+    }
+    .services{
+        width: 65%;
+        margin: auto;
+    }
+    .service_items{
+        margin-bottom: 20px;
+    }
+    .team_section{
+        width: 65%;
+        margin: auto;
+    }
+    .tem_items h4{
+        font-size: 20px;
+    }
+    .tem_items h6{
+        font-size: 15px;
+    }
+    .tem_items p{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .form_section .form_head h5{
+        font-size: 16px;
+    }
+    .form_section .form_head h2{
+        font-size: 22px;
+    }
+    .form_section .row{
+        width: 85%;
+        margin: auto;
+    }
+    .contactadd{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 450px){
+    .profile-sections .col-md-3{
+        width: 100%;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+}
